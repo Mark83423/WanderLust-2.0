@@ -47,7 +47,7 @@ body {
   text-align: center;
 }
 /* <!-- ivb)Styling index --> */
-.card {
+.listing-card {
   border: none !important;
   margin-bottom: 2rem;
 }
@@ -111,4 +111,9 @@ body {
   border-radius: 10px;
   padding: 3px 4px;
   padding-bottom: 0;
+}
+/* MAP */
+#map{
+  height: 400px;
+  width: 80vh;
 }
