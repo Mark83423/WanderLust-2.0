@@ -23,6 +23,7 @@ const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 
 const dbUrl = process.env.ATLASDB_URL;
+
 async function main() {
   await mongoose.connect(dbUrl);
 }
